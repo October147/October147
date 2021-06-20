@@ -1,16 +1,12 @@
-### Hi there 👋
+RDP Windows Gratis 6 Jam
+Buat RDP Windows Ram 7GB 2 Core Cpu Dengan Github:
 
-<!--
-**October147/October147** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Tekan Tombol Fork untuk membuat RDP (Bagi Pengguna Android/HP Disilahkan Pake Mode Desktop).
+kunjungi https://dashboard.ngrok.com untuk mendapatkan NGROK_AUTH_TOKEN
+Di Dalam Repo ini Pergi ke Settings> Secrets> New repository secret
+isi Nama: Masukan NGROK_AUTH_TOKEN
+isi Value: Kunjungi https://dashboard.ngrok.com/auth/your-authtoken Copy Dan Paste di dalam value
+Tekan Add secret
+Pergi Ke Action> CI> Run workflow
+Refresh Web dan masuk ke CI> build
+Tekan Tombol panah menghadap ke bawah "RDP INFO LOGIN" Untuk Mendapatkan IP, User, Password.
